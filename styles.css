@@ -132,6 +132,7 @@ color: black;
 
 .skillsContainer div p{
     font-weight: 700;
+    
 }
 
 .skillsContainer :nth-child(2) p{
@@ -145,7 +146,10 @@ color: black;
 
 .langContainer{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+}
+.langContainer div{
+    margin-right: 150px;
 }
 .langContainer div p{
     margin-bottom: 5px;
@@ -167,6 +171,60 @@ color: black;
     text-transform: uppercase;
     
 }
+
+@media screen and (max-width:1200px) {
+    .skillsContainer div{
+        width: 50%;
+    }
+    .skillsContainer div p{
+        width: 100%;
+    }
+    .main{
+        justify-content: center;
+    }
+    .headerLinks__social{
+        margin-right: 10%;
+    }
+    .hobbies__container{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .main{
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 100%;
+    }
+    .main__left,
+    .main__right{
+        width: 80%;
+        justify-content: center;
+    }
+    .skills{
+        width: 80%;
+        justify-content: center;
+    }
+    .skillsContainer{
+        width: 100%;
+        align-items: center;
+    }
+    .skillsContainer div{
+        width: 80%;
+    }
+    .skillsContainer div p{
+        width: 80%;
+    }
+    .certificates{
+        flex-wrap: wrap;
+        width: 80%;
+    }
+    .certificates p{
+        flex-wrap: wrap;
+        width: 80%;
+    }
+}
+
 
 /* ########################  PRINT responsivenes ##################### */
 
