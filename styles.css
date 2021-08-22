@@ -202,7 +202,7 @@ color: black;
         justify-content: center;
     }
     .skills{
-        width: 80%;
+        width: 100%;
         justify-content: center;
     }
     .skillsContainer{
@@ -214,6 +214,7 @@ color: black;
     }
     .skillsContainer div p{
         width: 80%;
+        
     }
     .certificates{
         flex-wrap: wrap;
@@ -222,6 +223,23 @@ color: black;
     .certificates p{
         flex-wrap: wrap;
         width: 80%;
+    }
+    .headerLinks__address{
+        margin-left: 10px;
+    }
+    
+    .headerLinks__social{
+        margin-right: 20px;
+
+    }
+    .hobbies__container p{
+        margin-top: 10px;
+        margin-bottom: 0px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .headerLinks{
+        font-size: 12px;
     }
 }
 
