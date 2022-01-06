@@ -105,7 +105,9 @@ color: black;
     margin-top: 20px;
     margin-bottom: 10px;
 }
-
+.certificates p a:hover{
+    color: #3AAFA9;
+}
 .main__left article div :nth-child(3){
     font-style: italic;
     font-size: 14px;
@@ -113,6 +115,9 @@ color: black;
 
 .main__left article div h3{
     margin-bottom: 5px;
+}
+.main__left article div h3 a:hover{
+    color: #3AAFA9;
 }
 .main__left article div p{
     margin-top:5px;
@@ -172,6 +177,7 @@ color: black;
     
 }
 
+
 @media screen and (max-width:1200px) {
     .skillsContainer div{
         width: 50%;
@@ -224,6 +230,7 @@ color: black;
         flex-wrap: wrap;
         width: 80%;
     }
+    
     .headerLinks__address{
         margin-left: 10px;
     }
